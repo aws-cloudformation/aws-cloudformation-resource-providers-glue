@@ -1,0 +1,17 @@
+{
+    "typeName": "AWS::Glue::Schema",
+    "language": "java",
+    "runtime": "java8",
+    "entrypoint": "software.amazon.glue.schema.HandlerWrapper::handleRequest",
+    "testEntrypoint": "software.amazon.glue.schema.HandlerWrapper::testEntrypoint",
+    "settings": {
+        "namespace": [
+            "software",
+            "amazon",
+            "glue",
+            "schema"
+        ],
+        "codegen_template_path": "guided_aws",
+        "protocolVersion": "2.0.0"
+    }
+}
