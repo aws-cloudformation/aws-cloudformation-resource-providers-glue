@@ -1,0 +1,50 @@
+# macOS
+.DS_Store
+._*
+
+# Maven outputs
+.classpath
+
+# IntelliJ
+*.iml
+.idea
+out.java
+out/
+.settings
+.project
+
+# auto-generated files
+target/
+*_schema.json
+contract-tests-artifacts/*_inputs_*.json
+
+# our logs
+rpdk.log*
+
+# contains credentials
+sam-tests/
+
+.gradle
+*.zip
+gradle/
+build
+buildSrc/.gradle/
+buildSrc/build/
+common/build/
+gradlew
+gradlew.bat
+contract-tests-artifacts/
+canary-bundle/
+settings.internal.json*
+docs
+build.gradle
+findbugs-exclude.xml
+.pre-commit-config.yaml
+aws-glue-job/build/
+build
+.attach_pid*
+.gradle
+*.zip
+gradle/
+scripts/
+bin/
