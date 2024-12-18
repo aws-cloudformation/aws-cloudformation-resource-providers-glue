@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+._*
+
+# Maven outputs
+.classpath
+
+# IntelliJ
+*.iml
+.idea
+out.java
+out/
+.settings
+.project
+
+# auto-generated files
+target/
+.attach_*
+
+# our logs
+rpdk.log*
+
+# contains credentials
+sam-tests/
+
+temp_scripts/
+
+
+# auto-generated files
+target/
+*_schema.json
+aws-glue-table/contract-tests-artifacts/*_inputs_*.json
